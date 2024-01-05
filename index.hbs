@@ -1,0 +1,16 @@
+{{!< default}}
+
+<div class="gh-outer">
+<main class="site-main gh-inner">
+
+    <div class="post-feed gh-feed">
+        {{> "pinned"}}
+        {{#foreach posts }}
+            {{^has tag="#pinned"}}
+               {{> "loop"}}
+            {{/has}}
+        {{/foreach}}
+    </div>
+
+</main>
+</div>
