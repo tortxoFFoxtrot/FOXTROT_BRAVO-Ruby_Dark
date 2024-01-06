@@ -1,3 +1,23 @@
+.gh-copyright {
+    display: none;
+}
+
+.nav-sign-up .nav-current {
+    display: none;
+}
+
+.nav-about {
+    display: none;
+}
+
+.navigation-label:hover h4 {
+    color: var(--color-fox-pink) !important;
+}
+
+.navigation-title:hover {
+    color: var(--color-fox-pink);
+}
+
 .gh-navigation {
     display: grid;
     grid-template-columns: 1fr auto 1fr;

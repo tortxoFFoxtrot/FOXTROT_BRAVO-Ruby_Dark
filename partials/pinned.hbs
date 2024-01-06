@@ -1,4 +1,4 @@
-{{#get "posts" limit="5" include="tags,authors" filter="tag:hash-pinned"}}
+{{#get "posts" include="tags,authors" filter="tag:hash-pinned"}}
    {{#foreach posts visibility="all" filter="tag:hash-pinned"}}
       {{> "loop"}}
    {{/foreach}}

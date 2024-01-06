@@ -15,11 +15,11 @@
 }
 
 .gh-article-meta a {
-    color: var(--color-fox-pink);
+     color: var(--color-fox-pink);
 }
 
 .gh-article-tag {
-    color: var(--tag-color, var(--ghost-accent-color));
+    color: var(--tag-color, var(--color-fox-pink)) !important;
 }
 
 .gh-article-title {

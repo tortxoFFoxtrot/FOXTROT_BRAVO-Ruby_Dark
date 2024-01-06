@@ -12,7 +12,7 @@
 }
 
 .navigation-item:hover {
-    opacity: 1;
+   opacity: 1;
 }
 
 .navigation-previous {
@@ -30,7 +30,7 @@
     z-index: 2;
     font-size: 11px;
     font-weight: 700;
-    color: var(--secondary-text-color);
+    color: var(--color-fox-cyan);
     text-transform: uppercase;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .navigation-item:hover .navigation-title {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 @media (max-width: 767px) {
