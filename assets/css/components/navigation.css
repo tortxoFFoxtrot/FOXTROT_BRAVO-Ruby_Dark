@@ -1,13 +1,5 @@
 .gh-copyright {
-    display: none;
-}
-
-.nav-sign-up .nav-current {
-    display: none;
-}
-
-.nav-about {
-    display: none;
+    display: visible;
 }
 
 .navigation-label:hover h4 {

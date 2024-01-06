@@ -1,24 +1,6 @@
 (function () {
     pagination(true);
 })();
-(async () => {
-    var ul = document.getElementsByClassName('nav')[0];
-    ul.firstElementChild.firstElementChild.innerText="HOME";
-    var githubli = document.createElement('li');
-    var xli = document.createElement('li');
-    var githuba = document.createElement('a');
-    var xa = document.createElement('a');
-    githuba.appendChild(document.createTextNode('GITHUB'));
-    githuba.target='_blank';
-    githuba.href ='https://github.com/tortxoFFoxtrot';
-    xa.appendChild(document.createTextNode('X'));
-    xa.target='_blank';
-    xa.href ='https://x.com/realfarfoxache';
-    githubli.appendChild(githuba);
-    xli.appendChild(xa);
-    ul.appendChild(githubli);
-    ul.appendChild(xli);
-})();
 const delay = ms => new Promise(res => setTimeout(res, ms));
 (async () => {
   var bool = true;
@@ -37,3 +19,11 @@ const delay = ms => new Promise(res => setTimeout(res, ms));
     }
   }
 })();
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('a');
+    links.forEach(function(link) {
+        if (link.hostname != window.location.hostname) {
+            link.target = '_blank';
+        }
+    });
+});
