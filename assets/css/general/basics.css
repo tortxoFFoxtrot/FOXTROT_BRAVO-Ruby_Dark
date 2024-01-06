@@ -16,6 +16,28 @@
 
 body:not(.post-template):not(.page-template) {}
 
+.fox-yellow {
+    color: var(--color-fox-yellow);
+}
+
+.fox-cyan {
+    color: var(--color-fox-cyan);
+}
+
+.fox-pink {
+    color: var(--color-fox-pink);
+}
+
+.kg-header-card-heading {
+    color: var(--color-secondary-text) !important;
+    data-text-color: var(--color-secondary-text) !important;
+}
+
+.kg-header-card-subheading {
+    color: var(--color-secondary-text) !important;
+    data-text-color: var(--color-secondary-text) !important;
+}
+
 .kg-toggle-card {
     box-shadow: inset 0 0 0 1px var(--color-secondary-text) !important;
 }

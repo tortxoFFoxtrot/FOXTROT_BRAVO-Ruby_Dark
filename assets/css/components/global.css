@@ -22,8 +22,11 @@ a {
 }
 
 a:hover {
-    opacity: 0.8;
     color: var(--color-fox-pink);
+}
+
+a .fox-yellow:hover {
+  color: var(--color-fox-pink);
 }
 
 h1,

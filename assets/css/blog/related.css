@@ -8,7 +8,7 @@
 .related-title {
     margin: 20px 0 40px;
     font-size: 14px;
-    color: var(--secondary-text-color);
+    color: var(--color-secondary-text);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
