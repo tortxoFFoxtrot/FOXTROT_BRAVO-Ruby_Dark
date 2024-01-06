@@ -13,6 +13,13 @@
     --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
     --content-font-size: 1.7rem;
 }
+pre {
+    background-color: var(--color-darker-gray);
+}
+
+code {
+    background-color: var(--color-darker-gray);
+}
 
 body:not(.post-template):not(.page-template) {}
 

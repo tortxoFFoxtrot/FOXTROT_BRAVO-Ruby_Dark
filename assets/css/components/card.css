@@ -1,7 +1,7 @@
 /* Add extra margin before/after any cards,
 except for when immediately preceeded by a heading */
 
-.kg-card {
+.kg-width-full {
     background-color: var(--color-darker-gray);
 }
 
