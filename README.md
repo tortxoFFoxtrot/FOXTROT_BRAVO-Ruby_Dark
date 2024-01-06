@@ -1,15 +1,23 @@
+
+# Ruby-Fox Custom
+
+This is a heavily customised dark mode variant of the original Ruby theme supplied by Ghost.
+
+**Demo: https://foxblog.click**
+
 # Ruby
 
-A multi-column [Ghost](https://github.com/TryGhost/Ghost) theme with a unique card layout. Make your publication more organized with cards and widgets.
+A multi-column [Ghost](https://github.com/TryGhost/Ghost) theme with a unique card layout. Make your publication more organized with cards and widgets. https://ruby.ghost.io
 
-Fox
+# Added Features
 
-**Demo: https://ruby.ghost.io**
+1. Use the tag `#pinned` to make a post pinned in front of all other posts
 
 # Instructions
 
-1. [Download this theme](https://github.com/TryGhost/Ruby/archive/main.zip)
-2. Log into Ghost, and go to the `Design` settings area to upload the zip file
+1. Navigate to the `/content/themes` folder in your ghost installation
+2. Clone this repository
+3. Log into Ghost, and go to the `Design` settings area to select the theme `ruby-fox`
 
 # Development
 
@@ -31,10 +39,6 @@ The `zip` Gulp task packages the theme files into `dist/ruby.zip`, which you can
 yarn zip
 ```
 
-# Contribution
-
-This repo is synced automatically with [TryGhost/Themes](https://github.com/TryGhost/Themes) monorepo. If you're looking to contribute or raise an issue, head over to the main repository [TryGhost/Themes](https://github.com/TryGhost/Themes) where our official themes are developed.
-
 # Copyright & License
 
-Copyright (c) 2013-2023 Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2013-2024 Ghost Foundation - Released under the [MIT license](LICENSE).
