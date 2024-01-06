@@ -1,4 +1,4 @@
-<div class="related-wrapper gh-outer">
+<div id = related-div class="related-wrapper gh-outer">
     {{#get "posts" limit="4" filter="tags:[{{post.tags}}]+id:-{{post.id}}" include="tags,authors" as |related|}}
         {{#if related}}
         <section class="related-posts gh-inner">
@@ -11,6 +11,8 @@
                 {{/foreach}}
             </div>
         </section>
-        {{/if}}
+       {{else}}
+           <script>document.getElementById('related-div').classList.add('invisible');</script>
+       {{/if}}
     {{/get}}
 </div>
