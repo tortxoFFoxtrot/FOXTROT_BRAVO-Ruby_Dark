@@ -1,6 +1,18 @@
 (function () {
     pagination(true);
 })();
+function unhideFooterNav() {
+    const is_root = location.pathname == "/";
+    if(!is_root)
+    {
+        const navelems = document.getElementsByClassName('nav');
+        console.log('navelems length: '+navelems.length);
+        for(var i=0; i<navelems.length; i++) {
+            navelems[i].style.display='flex';
+        }
+     }
+}
+window.addEventListener("load", unhideFooterNav);
 const delay = ms => new Promise(res => setTimeout(res, ms));
 (async () => {
   var bool = true;
