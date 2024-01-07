@@ -6,7 +6,6 @@ function unhideFooterNav() {
     if(!is_root)
     {
         const navelems = document.getElementsByClassName('nav');
-        console.log('navelems length: '+navelems.length);
         for(var i=0; i<navelems.length; i++) {
             navelems[i].style.display='flex';
         }
