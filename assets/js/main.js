@@ -28,20 +28,18 @@ document.addEventListener('DOMContentLoaded', function() {
             navelems[i].style.display='flex';
         }
      }
-     if(!location.hostname.toLowerCase().includes("foxblog.click"))
+    /*if(!location.hostname.toLowerCase().includes("foxblog.click"))
      {
-         console.log('detected onion link')
-         var l = document.links;
-         for(var i=0; i<l.length; i++) {
-             var cl = l[i].href;
+         var ls = document.links;
+         for(var i=0; i<ls.length; i++) {
+             var cl = ls[i].href;
              if( cl.includes("foxblog.click"))
              {
                  const url = new URL(cl);
-                 console.log(location.protocol+'//'+location.hostname+url.pathname);
-                 l[i].href = location.protocol+'//'+location.hostname+url.pathname;
+                 ls[i].href = location.protocol+'//'+location.hostname+url.pathname;
              }
          }
-    }
+    }*/
     var links = document.querySelectorAll('a');
     links.forEach(function(link) {
         if (link.hostname != window.location.hostname) {
