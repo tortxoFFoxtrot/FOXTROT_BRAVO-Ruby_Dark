@@ -35,6 +35,10 @@ body:not(.post-template):not(.page-template) {}
     color: var(--color-fox-pink);
 }
 
+p a:hover {
+    color: var(--color-fox-pink);
+}
+
 .kg-header-card-heading {
     color: var(--color-secondary-text) !important;
     data-text-color: var(--color-secondary-text) !important;
