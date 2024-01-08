@@ -39,6 +39,22 @@ p a:hover {
     color: var(--color-fox-pink);
 }
 
+a i {
+    color: var(--color-secondary-text);
+}
+
+a i:hover {
+    color: var(--color-fox-pink);
+}
+
+a span {
+    color: var(--color-secondary-text);
+}
+
+a span:hover {
+    color: var(--color-fox-pink);
+}
+
 .kg-header-card-heading {
     color: var(--color-secondary-text) !important;
     data-text-color: var(--color-secondary-text) !important;
