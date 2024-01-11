@@ -15,11 +15,10 @@
                 {{/if}}
                 —
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
-                —
-                {{reading_time minute="1 min read" minutes="% min read"}}
             </span>
 
             <h1 class="gh-article-title">{{title}}</h1>
+            <span class="gh-article-meta">{{reading_time minute="1 min read" minutes="% min read"}}</span>
 
             {{#if custom_excerpt}}
                 <p class="gh-article-excerpt">{{custom_excerpt}}</p>
