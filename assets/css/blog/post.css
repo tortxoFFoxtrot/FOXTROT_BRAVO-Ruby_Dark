@@ -84,6 +84,7 @@
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 0.005em;
+    color: var(--color-darker-gray);
 }
 
 .post-author {
