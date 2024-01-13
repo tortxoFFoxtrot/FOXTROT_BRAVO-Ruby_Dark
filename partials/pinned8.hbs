@@ -1,0 +1,6 @@
+{{#get "posts" include="tags,authors" filter="tag:hash-pinned8"}}
+   {{#foreach posts visibility="all" filter="tag:hash-pinned8"}}
+      {{> "loop"}}
+   {{/foreach}}
+
+{{/get}}

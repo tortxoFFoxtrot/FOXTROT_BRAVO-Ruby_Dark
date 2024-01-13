@@ -1,6 +1,6 @@
 .gh-head {
     height: 100px;
-    background-color: var(--color-fox-gray);
+    background-color: var(--color-fox-gray) !important;
 }
 
 .gh-head-inner {

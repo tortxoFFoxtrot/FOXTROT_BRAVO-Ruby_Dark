@@ -6,9 +6,12 @@
     <div class="post-feed gh-feed">
         {{> "pinned"}}
         {{#foreach posts }}
-            {{^has tag="#pinned"}}
+            {{^has tag="#pinned,#pinned8"}}
                {{> "loop"}}
             {{/has}}
+            {{#match @index "=" 5 }}
+               {{> "pinned8"}}               
+            {{/match}}
         {{/foreach}}
     </div>
 
