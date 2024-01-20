@@ -12,6 +12,7 @@ A multi-column [Ghost](https://github.com/TryGhost/Ghost) theme with a unique ca
 # Added Features
 
 1. Use the tag `#pinned` to make a post pinned in front of all other posts
+2. Use the tag `#pinned8` to make a post pinned in the 8th position of the blog, creating a nice appearance of opposing feature posts
 
 # Instructions
 
