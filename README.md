@@ -43,3 +43,5 @@ yarn zip
 # Copyright & License
 
 Copyright (c) 2013-2024 Ghost Foundation - Released under the [MIT license](LICENSE).
+
+Far Fox Ache
