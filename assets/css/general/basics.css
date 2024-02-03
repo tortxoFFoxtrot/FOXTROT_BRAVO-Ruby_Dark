@@ -18,6 +18,12 @@ pre {
 }
 
 code {
+    color: var(--primary-color);
+    background-color: var(--color-darker-gray);
+}
+
+li code {
+    color: var(--primary-color);
     background-color: var(--color-darker-gray);
 }
 

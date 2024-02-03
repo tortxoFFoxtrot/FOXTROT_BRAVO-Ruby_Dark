@@ -7,7 +7,11 @@
         {{> "pinned"}}
         {{#foreach posts }}
             {{^has tag="#pinned,#pinned8"}}
-               {{> "loop"}}
+               {{#match @index "=" 0 }}
+                   {{> "notlazy-loop"}}
+               {{else}}
+                   {{> "loop"}}
+               {{/match}}
             {{/has}}
             {{#match @index "=" 5 }}
                {{> "pinned8"}}               

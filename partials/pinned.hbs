@@ -1,6 +1,6 @@
 {{#get "posts" include="tags,authors" filter="tag:hash-pinned"}}
    {{#foreach posts visibility="all" filter="tag:hash-pinned"}}
-      {{> "loop"}}
+      {{> "notlazy-loop"}}
    {{/foreach}}
 
 {{/get}}
