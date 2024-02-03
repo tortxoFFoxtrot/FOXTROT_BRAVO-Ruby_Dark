@@ -15,11 +15,12 @@
 }
 pre {
     background-color: var(--color-darker-gray);
+    overflow-x: auto !important;
 }
 
 code {
-    color: var(--primary-color);
-    background-color: var(--color-darker-gray);
+    color: var(--primary-color) !important;
+    background-color: var(--color-darker-gray) !important;
 }
 
 li code {
